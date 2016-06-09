@@ -1,0 +1,19 @@
+{
+  "name": "medhajscraper",
+  "version": "1.0.0",
+  "description": "node medhaj news scraper ",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "python-shell": "^0.4.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "bhav97",
+  "license": "MIT"
+}
