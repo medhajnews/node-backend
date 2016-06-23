@@ -26,6 +26,10 @@ app.get('/science', function(req, res){
   data(req, res);
 })
 
+app.post('/search', function(req, res){
+  data(req, res);
+})
+
 app.listen(port)
 
 function data(req, res) {
