@@ -60,7 +60,7 @@ function data(req, res) {
                 area : "New Delhi",
                 likes : "9",
                 dislikes : "6",
-                article_content : "Movie Shorgul, based on the Muzzaffarnagar riots of 2013, has been unofficially banned in the western part of Uttar Pradesh.<<>>According to reports, more than two dozens of theatres in Muffarnagar and Meerut have refused to exhibit the movie. The theatres cited security reasons for not running the Shorgul, scheduled to release on June 24, in their cinema halls.<<>Manoj Vjpayee, district entertainer officer, pointed out that none the single-small screen cinema halls and multiplex in Muffarnagar had seek approached him to seek permission for exhibiting the film.<<>>Meanwhile, BJP MLA Sangeet Som expressed anger over the story of Shorgul. He reiterated that the director and producers were damaging the reputation of Muffarnagar. "
+                article_content : "Movie Shorgul, based on the Muzzaffarnagar riots of 2013, has been unofficially banned in the western part of Uttar Pradesh.<<>>>According to reports, more than two dozens of theatres in Muffarnagar and Meerut have refused to exhibit the movie. The theatres cited security reasons for not running the Shorgul, scheduled to release on June 24, in their cinema halls.<<>>Manoj Vjpayee, district entertainer officer, pointed out that none the single-small screen cinema halls and multiplex in Muffarnagar had seek approached him to seek permission for exhibiting the film.<<>>>Meanwhile, BJP MLA Sangeet Som expressed anger over the story of Shorgul. He reiterated that the director and producers were damaging the reputation of Muffarnagar. "
               });
           }
           console.log('JSON ready');
