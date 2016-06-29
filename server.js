@@ -30,7 +30,24 @@ app.post('/search', function(req, res){
   data(req, res);
 })
 
+app.get('/ads', function(req, res){
+  ads(req, res);
+})
+
 app.listen(port)
+
+function ads(req, res) {
+  res.writeHead(200, {'Content-Type': 'application/json;charset=utf-8'});
+  latest_ads = [];
+  for(var i=0; i < 5; i++) {
+      latest_ads.push({
+        ad_url : "google.com",
+        ad_image_url : "https://think.storage.googleapis.com/images/youtube-homepage-ads-lg.jpg"
+        });
+  }
+  res.end(JSON.stringify(latest_ads));
+}
+
 
 function data(req, res) {
   res.writeHead(200, {'Content-Type': 'application/json;charset=utf-8'});
