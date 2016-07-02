@@ -30,7 +30,7 @@ app.post('/search', function(req, res){
   data(req, res);
 })
 
-app.get('/ads', function(req, res){
+app.get('/adverts', function(req, res){
   ads(req, res);
 })
 
