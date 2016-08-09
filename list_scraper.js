@@ -36,7 +36,7 @@ module.exports = {
         $('.cat_fig').each(function() {
           list.push({
             id : parseInt($(this).children().eq(0).attr('href').toString().split("--")[1]),
-            url : $(this).children().eq(0).attr('href').toString(),
+            url : 'http://medhajnews.in/' + $(this).children().eq(0).attr('href').toString(),
             image : $(this).children().eq(0).children().eq(0).attr('src').toString(),
             title : $(this).children().eq(1).children().eq(0).text().toString()
           });

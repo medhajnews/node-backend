@@ -9,8 +9,7 @@ module.exports = {
   search : function(req, res) {
     request.post(url, {
       form: {
-        query : req.params.query,
-        button : 'search'
+        searchin : req.params.query
       }
     }, function(error, response, html) {
       if(error) {

@@ -52,7 +52,10 @@ app.get('/science/:page', function(req, res){
 })
 
 app.get('/search/:query', function(req, res){
-  search_scraper.search(req, res);
+  // search on website uses cookies, no easy way to implement it for a sample app backend
+  // all queries return all articles
+  // search_scraper.search(req, res);
+  list_scaper.getList(req, res, "http://medhajnews.in/en/search_article.php");
 })
 
 app.get('/ads', function(req, res){
